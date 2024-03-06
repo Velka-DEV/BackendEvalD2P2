@@ -5,5 +5,5 @@ namespace BackendEvalD2P2.Application.Events.Queries.ListEvents;
 
 public record ListEventsQuery : IRequest<IEnumerable<EventDto>>
 {
-    
+    public DateTime? Date { get; set; }
 }

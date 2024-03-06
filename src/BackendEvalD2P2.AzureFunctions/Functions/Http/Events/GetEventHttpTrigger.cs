@@ -31,7 +31,7 @@ public class GetEventHttpTrigger
         {
             var command = new GetEventQuery
             {
-                Id = id
+                Id = id,
             };
 
             var result = await _mediator.Send(command);

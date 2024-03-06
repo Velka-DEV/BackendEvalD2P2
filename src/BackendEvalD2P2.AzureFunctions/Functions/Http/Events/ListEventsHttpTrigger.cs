@@ -25,7 +25,12 @@ public class ListEventsHttpTrigger
     {
         try
         {
-            var result = await _mediator.Send(new ListEventsQuery());
+            var queryDate = req.Query.GetValues("date")?.FirstOrDefault();
+            
+            var result = await _mediator.Send(new ListEventsQuery()
+            {
+                Date = queryDate is not null ? DateTime.Parse(queryDate) : null
+            });
 
             var response = req.CreateResponse(HttpStatusCode.OK);
 
