@@ -16,8 +16,4 @@
       <ProjectReference Include="..\BackendEvalD2P2.Domain\BackendEvalD2P2.Domain.csproj" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="Common\Mappings\" />
-    </ItemGroup>
-
 </Project>

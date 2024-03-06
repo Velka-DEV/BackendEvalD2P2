@@ -1,0 +1,9 @@
+services:
+  sqlserver:
+    image: "mcr.microsoft.com/azure-sql-edge"
+    restart: always
+    ports:
+      - "1433:1433"
+    environment:
+        SA_PASSWORD: "Seb!*^6ACkt"
+        ACCEPT_EULA: "Y"
