@@ -12,6 +12,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackendEvalD2P2.Infrastruct
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackendEvalD2P2.AzureFunctions", "src\BackendEvalD2P2.AzureFunctions\BackendEvalD2P2.AzureFunctions.csproj", "{7FD9AAFF-B914-4BB4-ACD2-7B0049F7B33D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackendEvalD2P2.Application.IntegrationTests", "tests\BackendEvalD2P2.Application.IntegrationTests\BackendEvalD2P2.Application.IntegrationTests.csproj", "{B78605DF-9BD9-480B-ADA2-3CD9B5F0BCB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackendEvalD2P2.Infrastructure.UnitTests", "tests\BackendEvalD2P2.Infrastructure.UnitTests\BackendEvalD2P2.Infrastructure.UnitTests.csproj", "{61E7FC3D-60A6-4B36-BF94-A21612F806D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,6 +26,8 @@ Global
 		{7E4930CD-8014-474A-8401-88E29433DB5D} = {028861E1-716F-4242-BDF5-A558E12609A4}
 		{DBF923C3-1578-4AB9-89B1-5DC6788AD9D6} = {028861E1-716F-4242-BDF5-A558E12609A4}
 		{7FD9AAFF-B914-4BB4-ACD2-7B0049F7B33D} = {028861E1-716F-4242-BDF5-A558E12609A4}
+		{B78605DF-9BD9-480B-ADA2-3CD9B5F0BCB3} = {7A18154C-2D12-412E-9F5E-AD448CB8E9A6}
+		{61E7FC3D-60A6-4B36-BF94-A21612F806D1} = {7A18154C-2D12-412E-9F5E-AD448CB8E9A6}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{8B8DB060-2961-4561-A0D0-EF50D82B03E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -40,5 +46,13 @@ Global
 		{7FD9AAFF-B914-4BB4-ACD2-7B0049F7B33D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FD9AAFF-B914-4BB4-ACD2-7B0049F7B33D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FD9AAFF-B914-4BB4-ACD2-7B0049F7B33D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B78605DF-9BD9-480B-ADA2-3CD9B5F0BCB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B78605DF-9BD9-480B-ADA2-3CD9B5F0BCB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B78605DF-9BD9-480B-ADA2-3CD9B5F0BCB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B78605DF-9BD9-480B-ADA2-3CD9B5F0BCB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61E7FC3D-60A6-4B36-BF94-A21612F806D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61E7FC3D-60A6-4B36-BF94-A21612F806D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61E7FC3D-60A6-4B36-BF94-A21612F806D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61E7FC3D-60A6-4B36-BF94-A21612F806D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
