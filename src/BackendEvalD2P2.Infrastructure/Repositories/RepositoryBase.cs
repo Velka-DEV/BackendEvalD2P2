@@ -37,7 +37,14 @@ public class RepositoryBase<TEntity>: IRepository<TEntity> where TEntity : Entit
         await Context.SaveChangesAsync(token);
         return entity;
     }
-    
+
+    public async Task<bool> DeleteAsync(TEntity entity, CancellationToken token = default)
+    {
+        Context.Set<TEntity>().Remove(entity);
+        await Context.SaveChangesAsync(token);
+        return true;
+    }
+
     public async Task<bool> DeleteAsync(Guid id, CancellationToken token = default)
     {
         var entity = await GetByIdAsync(id, token);
