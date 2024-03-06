@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{028861E1-716F-4242-BDF5-A558E12609A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{7A18154C-2D12-412E-9F5E-AD448CB8E9A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackendEvalD2P2.Domain", "src\BackendEvalD2P2.Domain\BackendEvalD2P2.Domain.csproj", "{8B8DB060-2961-4561-A0D0-EF50D82B03E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackendEvalD2P2.Application", "src\BackendEvalD2P2.Application\BackendEvalD2P2.Application.csproj", "{7E4930CD-8014-474A-8401-88E29433DB5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackendEvalD2P2.Infrastructure", "src\BackendEvalD2P2.Infrastructure\BackendEvalD2P2.Infrastructure.csproj", "{DBF923C3-1578-4AB9-89B1-5DC6788AD9D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackendEvalD2P2.WebApi", "src\BackendEvalD2P2.WebApi\BackendEvalD2P2.WebApi.csproj", "{9027DE70-4E25-47EB-A44C-F44EE9F2B640}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8B8DB060-2961-4561-A0D0-EF50D82B03E4} = {028861E1-716F-4242-BDF5-A558E12609A4}
+		{7E4930CD-8014-474A-8401-88E29433DB5D} = {028861E1-716F-4242-BDF5-A558E12609A4}
+		{DBF923C3-1578-4AB9-89B1-5DC6788AD9D6} = {028861E1-716F-4242-BDF5-A558E12609A4}
+		{9027DE70-4E25-47EB-A44C-F44EE9F2B640} = {028861E1-716F-4242-BDF5-A558E12609A4}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B8DB060-2961-4561-A0D0-EF50D82B03E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B8DB060-2961-4561-A0D0-EF50D82B03E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B8DB060-2961-4561-A0D0-EF50D82B03E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B8DB060-2961-4561-A0D0-EF50D82B03E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E4930CD-8014-474A-8401-88E29433DB5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E4930CD-8014-474A-8401-88E29433DB5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E4930CD-8014-474A-8401-88E29433DB5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E4930CD-8014-474A-8401-88E29433DB5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBF923C3-1578-4AB9-89B1-5DC6788AD9D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBF923C3-1578-4AB9-89B1-5DC6788AD9D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBF923C3-1578-4AB9-89B1-5DC6788AD9D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBF923C3-1578-4AB9-89B1-5DC6788AD9D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9027DE70-4E25-47EB-A44C-F44EE9F2B640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9027DE70-4E25-47EB-A44C-F44EE9F2B640}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9027DE70-4E25-47EB-A44C-F44EE9F2B640}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9027DE70-4E25-47EB-A44C-F44EE9F2B640}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
